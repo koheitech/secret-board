@@ -11,4 +11,5 @@ RUN yarn add http-auth@4.1.9
 RUN yarn add sequelize@6.5.0
 RUN yarn add pg@8.5.1
 RUN yarn add pg-hstore@2.3.3
+RUN yarn add cookies@0.8.0
 WORKDIR /app
