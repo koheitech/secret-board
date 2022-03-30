@@ -1,9 +1,20 @@
 {
   "name": "secret-board",
   "version": "1.0.0",
+  "description": "秘密の匿名掲示板",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookies": "0.8.0",
+    "dayjs": "1.10.4",
+    "http-auth": "^4.1.9",
+    "pg": "8.5.1",
+    "pg-hstore": "2.3.3",
+    "pug": "^2.0.0-rc.4",
+    "sequelize": "6.5.0"
+  }
 }
