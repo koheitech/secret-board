@@ -10,3 +10,5 @@ ENV TZ Asia/Tokyo
 WORKDIR /app
 COPY package*.json ./
 RUN yarn install
+COPY . /app
+CMD ["sh", "run.sh"]
