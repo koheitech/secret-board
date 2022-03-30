@@ -8,4 +8,7 @@ ENV LANG ja_JP.UTF-8
 ENV TZ Asia/Tokyo
 RUN yarn add pug@2.0.4
 RUN yarn add http-auth@4.1.9
+RUN yarn add sequelize@6.5.0
+RUN yarn add pg@8.5.1
+RUN yarn add pg-hstore@2.3.3
 WORKDIR /app
