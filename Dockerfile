@@ -7,4 +7,5 @@ RUN localedef -f UTF-8 -i ja_JP ja_JP
 ENV LANG ja_JP.UTF-8
 ENV TZ Asia/Tokyo
 RUN yarn add pug@2.0.4
+RUN yarn add http-auth@4.1.9
 WORKDIR /app
