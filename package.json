@@ -11,6 +11,7 @@
   "dependencies": {
     "cookies": "0.8.0",
     "dayjs": "1.10.4",
+    "dotenv": "^16.0.0",
     "http-auth": "^4.1.9",
     "pg": "8.5.1",
     "pg-hstore": "2.3.3",
