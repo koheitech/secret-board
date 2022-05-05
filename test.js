@@ -2,7 +2,7 @@
 const pug = require('pug');
 const assert = require('assert');
 
-// pug のテンプレートにおける XSS 脆弱性のテスト
+// XSS vulnerability test for pug template
 const html = pug.renderFile('./views/posts.pug', {
   posts: [
     {
@@ -17,6 +17,6 @@ const html = pug.renderFile('./views/posts.pug', {
   user: 'guest1'
 });
 
-// スクリプトタグがエスケープされて含まれていることをチェック
+// check if script tag is successfully escaped.
 assert(html.includes("&lt;script&gt;alert('test');&lt;/script&gt;"));
-console.log('テストが正常に完了しました');
+console.log('Test is successfully passed.');
