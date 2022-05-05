@@ -1,6 +1,6 @@
 # Secret Board
 
-# description(en)
+# Description(en)
 This app is created based on the tutorial offered by [N予備校【2021年度】プログラミング入門 Chapter3](https://www.nnn.ed.nico/courses/999/chapters/13382).
 
 This app is running on [https://nschoolsecretboard.herokuapp.com/](https://nschoolsecretboard.herokuapp.com/).
