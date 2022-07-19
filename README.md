@@ -1,6 +1,8 @@
 # Secret Board
 
 # Description(en)
+Secret Board is an anonymous chat application authenticated with Basic Auth.
+
 This app is created based on the tutorial offered by [N予備校【2021年度】プログラミング入門 Chapter3](https://www.nnn.ed.nico/courses/999/chapters/13382).
 
 This app is running on [https://nschoolsecretboard.herokuapp.com/](https://nschoolsecretboard.herokuapp.com/).
@@ -22,6 +24,7 @@ Secret Boardはパスワードで認証を行い、認証されたユーザー�
 このアプリケーションは[N予備校【2021年度】プログラミング入門 Chapter3](https://www.nnn.ed.nico/courses/999/chapters/13382)のチュートリアルを参考に作成しました。
 
 動かしてみたい場合には、以下のURLにアクセスし、
+
 [https://nschoolsecretboard.herokuapp.com/](https://nschoolsecretboard.herokuapp.com/)
 
 下記のテストユーザーを用いてアクセスしてみてください。
